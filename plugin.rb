@@ -60,6 +60,7 @@ after_initialize do
       every 10.minutes
 
       def execute(args)
+        puts "Updating watch status for each category"
         WatchCategory.watch_category!
       end
     end
