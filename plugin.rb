@@ -15,7 +15,11 @@ module ::WatchCategory
       "pr-communications" => ["pr-communications"],
       "youth-programs" => ["youth-programs"],
       "member-service" => ["member-service"],
-      "broadband" => ["broadband"]
+      "broadband" => ["broadband"],
+      "eando-circle" => ["eando-circle"],
+      "admins-circle" => ["admins-circle"],
+      "it-circle" => ["it-circle"],
+      "govaffairs-circle" => ["govaffairs-circle"]
       # "everyone" makes every user watch the listed categories
       # "everyone" => [ "announcements" ]
     }
